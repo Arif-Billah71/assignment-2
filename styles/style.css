@@ -1,0 +1,142 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500;700&display=swap');
+
+/* common styles or utilities */
+header, body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header styles */
+
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+}
+
+.header-title{
+    display: flex;
+    align-content: space-between;
+}
+.nav-element{
+    display: flex;
+
+}
+
+
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   align-content: center;
+   padding: 50px 50px 100px 100px;
+   
+}
+
+.header-description{
+    border: 3px solid rgba(255, 144, 14, 0.1);
+}
+
+.header-description-title{
+    font-weight: 700;
+    font-size: 64px;
+    
+
+}
+.header-description-para{
+    color: 
+    Dark 01
+    #131313;
+}
+.header-btn{
+    width: 180px;
+height: 64px;
+background: #FF900E;
+border-radius: 8px;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.header-img{
+    width: 1440px;
+    height: 700px;
+}
+
+
+/* Quick list styles */
+
+.quick-list{
+    display: flex;
+}
+
+.span-1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.span-2{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.quick-list-btn{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+color: #FFFFFF;
+}
+
+/* architect styles */
+.architect{
+    display: flex;
+}
+
+.architect-btn{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    color: #FFFFFF
+}
+.span-10{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+
+@media screen and (max-width:576px) {
+    .header-img{
+        width: 100%;
+        height: 100%px;
+    }
+    .header-description-title{
+        text-decoration: none;
+    font-size: 25px;
+    
+    }
+    .header-content{
+        padding: 0;
+    }
+    .quick-list{
+        flex-direction: column;
+    }
+    .architect{
+        flex-direction: column;
+    }
+    .architect-img{
+        width: 100%;
+    }
+    
+}
